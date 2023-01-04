@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(39, 37, 134);
+    background-image: url("https://img.freepik.com/free-vector/galaxy-mobile-phone-background-blue-purple-tones_79603-549.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 5%;
+}
+.accordian{
+    width: 50%;
+}
+.acc-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(2, 0, 110);
+    border: 1.5px solid black;
+    color:rgb(131, 216, 216);
+    padding: 1%;
+}
+.acc-header:hover{
+    cursor: pointer;
+    background-color: rgb(2, 1, 75);
+}
+.acc-txt{
+    display: none;
+    background-color: rgba(36, 1, 163, 0.8);
+    color:rgb(234, 191, 247);
+    padding: 2%;
+}
